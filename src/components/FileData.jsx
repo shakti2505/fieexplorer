@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FileData = () => {
+const FileData = ({curentFileData}) => {
   return (
     <div className='flie-data'>
          <h1>File Data</h1>   

@@ -98,7 +98,13 @@ const FileExplorer = ({ explorer }) => {
       </div>
     );
   } else {
-    return <span className="file">🗄️{explorer.name}</span>;
+    return (
+        <>
+        <div style={{display:"flex", flexDirection:'column'}}>
+        <span className="file">🗄️{explorer.name}</span>
+        </div>
+        </>
+    );
   }
 };
 
